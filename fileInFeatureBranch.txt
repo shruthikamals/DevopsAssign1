@@ -1,1 +1,26 @@
-created anoter file to add in feature branch
+First Commit
+Create a branch(development/production/feature)
+•	git checkout –b development
+•	git checkout –b production
+•	git checkout –b feature
+Edit files or create new files followed by commit
+•	Do edit the files
+•	Use git add .     to add the modified files into created working branch
+•	Use command – git commit –m “added the information of the files”
+•	Use command – git remote –v to check the remote status in the local
+•	Use command – git push origin
+Clone the repo and Create pull-request
+•	Use command to clone it – git clone URL.git
+•	Use Command to pull request from the working branch to target branch – git merge production (pull request has to be raised from working branch to production)
+While collaborating your work, showcase how conflicts are resolved
+•	
+Create tag such as open issue, or feature-added
+•	Use command – git tag v1.0 and v1.1 so on…
+•	Use the created tag for the particular push to give the release count along with message.
+Do a force push and then later reset the changes
+•	Use command for force push to – git push origin URL.git
+Stage “development branch to production branch”
+
+Showcase how features are released in versions (merging production to master branch)
+Also, state importance of Readme and gitignore files and their usage while working in a distributed environment.
+
